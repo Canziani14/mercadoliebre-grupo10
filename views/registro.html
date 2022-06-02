@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/registro.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+
+        <div class="header-top-bar">
+        <!-- logo -->
+       <img  src="/images/logo-mercado-liebre.svg" alt="logo"  width="30%" class="logo" href="http://localhost:3000/home">
+
+        <!-- buscador -->
+        <div class="header-buscador">
+           
+            <div class="header-buscador" >
+                <input class="input3"  type="text" placeholder="Buscar productos, marcas y mas">
+                <span >
+                  <i  class="material-symbols-outlined"></i>
+                </span>
+              </div>
+              
+         
+        </div>
+
+        <!-- compra en cuotas -->
+        <h4>
+            <span class="material-symbols-outlined">
+                price_check
+            </span>
+            Comprá en cuotas y sin tarjeta de crédito
+        </h4>
+    </div>
+        <!-- info -->
+        <div class="header-info">
+        <nav class="header-info-nav">
+            
+                <li><a href="">Ofertas</a></li>
+                <li><a href=""> Tiendas oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            
+           </nav>
+           <nav class="header-info-nav">
+            
+                <li>
+                    <a href="http://localhost:3000/registro"> Creá tu cuenta<span class="material-symbols-outlined">
+                            badge
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://localhost:3000/login">Ingresá
+                        <span class="material-symbols-outlined">
+                            login
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">Mis compras
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+
+                </li>
+            
+        </nav>
+        </div>
+        <!-- burguer -->
+    <div class="burguer">
+        <button class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    
+    </header>
+
+
+    <main>
+        <div>
+            <form>
+            <input class="input , input2" type="text" placeholder="Nombre y Apellido">
+            <br><br><br>
+            <input class="input , input2" type="text" placeholder="Nomre de Usuario">
+            <br><br><br>
+            <input class="input , input2" type="email" placeholder="E-mial">
+            <br><br>
+            <p class="intperf">Fecha de nacimiento</p>
+            
+            <input class="input , input2" type="date">
+            <br><br>
+            <input class="input , input2" type="text" placeholder="Domicilio">
+            <br><br>
+            <p class="intperf">Perfil del usuario</p>
+         
+
+            <div class="intperf">
+            <input type="radio" name="medio" value="Efectivo">
+            Comprador
+            <input type="radio" name="medio" value="Débito">
+            Vendedor
+            </div>
+            <br><br>
+          
+            <p class="intperf">Intereses</p>
+            
+            <div class="intperf" >
+                <input type="checkbox" name="tipo" value="Electro"> 
+                Electro
+            </div> <br>
+
+            <div class="intperf">
+                <input type="checkbox" name="tipo" value="Moda"> 
+                Moda  
+            </div> <br>
+
+            <div class="intperf">
+                <input type="checkbox" name="tipo" value="Hogar"> 
+                Hogar
+            </div> <br>
+
+            <div class="intperf">
+                <input type="checkbox" name="tipo" value="Jugueteria"> 
+                Jugueteria 
+            </div> <br>
+
+            <div class="intperf">
+                <input type="checkbox" name="tipo" value="Vida Sana"> 
+                Vida Sana 
+            </div>
+            <br><br>
+
+            <div style="display:flex;">
+            <button class="button" type="reset">Reset</button>
+            <button class="button" type="button">Crear</button>
+            <!-- button type button para que no se resetee la página -->
+            </div>
+
+           
+
+
+            </form>
+        </div>
+
+
+    </main>
+
+</body>
+</html>
